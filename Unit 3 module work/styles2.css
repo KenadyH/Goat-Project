@@ -13,10 +13,8 @@ body {
     padding: 20px;
 }
 
-
 header {
     margin-bottom: 20px;
-    align-items: center;
 }
 
 .main-title {
@@ -24,7 +22,6 @@ header {
     color: rgb(85, 37, 130); 
     margin-bottom: 15px;
 }
-
 
 .main-image {
     width: 59%;             
@@ -36,20 +33,19 @@ header {
     border: 3px solid teal;
 }
 
-.more-info {
-    font-size: 28px;
-    color: rgb(85, 37, 130); 
-    margin: 20px 0 10px 0;
-}
-
 .intro {
-    font-size: 28px;
+    font-size: 20px;
     max-width: 600px;
     margin: 20px auto;
     line-height: 1.6;
     color: rgb(85, 37, 130);
 }
 
+.more-info {
+    font-size: 24px;
+    color: rgb(85, 37, 130); 
+    margin: 20px auto;
+}
 
 .clickable-image {
     width: 40%;             
@@ -61,15 +57,8 @@ header {
     border: 3px solid teal;
     transition: transform 0.3s; 
     cursor: pointer;
-   
 }
-
 
 .clickable-image:hover {
-    transform: scale(1.1);  /* slightly enlarge on hover */
-}
-
-
-.more-info {
-    margin: 20px auto;
+    transform: scale(1.1); 
 }
